@@ -19,7 +19,7 @@ We were given some Template code to get us started on the project. This code inc
 Above you can see the VGA Sync file is setting the parameters of the display we want the graphic from the Board to fit. It sets all general information in regards to our VGA display and its settings.
 
 #### **Colour_Sync**
-<img src="
+<img src="https://github.com/NaoiseOL/FPGAProject/blob/main/colourCycle.png">
 
 
 
