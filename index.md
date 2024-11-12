@@ -11,5 +11,5 @@ This will all be done through Verilog and demonstarted on the Basys3 development
 ## **Template VGA Design**
 ### **Project Set-Up**
 We set up the project in Verilog based on code given to us by our lecturer. The board being used is a Basys3 development board which is a member of the artix-7 family, below you can see an image of what the initial set up of the project looks like.
-<img src="
+<img src="https://github.com/NaoiseOL/FPGAProject/blob/main/Project%20summary.png">
 
