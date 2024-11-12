@@ -15,4 +15,11 @@ We set up the project in Verilog based on code given to us by our lecturer. The 
 ### **Template Code**
 We were given some Template code to get us started on the project. This code included design sources for VGA Sync and a colour cycle source we can use to determine the patter that is outputted onto our screen from out basys3 board.
 #### **VGA_Sync**
+<img src="https://github.com/NaoiseOL/FPGAProject/blob/main/VGASync.png">
+Above you can see the VGA Sync file is setting the parameters of the display we want the graphic from the Board to fit. It sets all general information in regards to our VGA display and its settings.
+
+#### **Colour_Sync**
+<img src="
+
+
 
