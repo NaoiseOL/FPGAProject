@@ -23,6 +23,11 @@ Above you can see the VGA Sync file is setting the parameters of the display we 
 Above we can see a logic state machine which is used to determine the pattern used in our template code. In this code we filter through a range of different colours that is outputter to our screen.
 
 ### **Simulation**
+<img src="https://github.com/NaoiseOL/FPGAProject/blob/main/Simulation.png">
+Above we can see our simulation of the template project which filter through the different colours, rows and columns based on the clock being used which allows us to see the patterns outputted onto the Screen when implemented onto the board.
+
+### **Synthesis**
+
 
 
 
