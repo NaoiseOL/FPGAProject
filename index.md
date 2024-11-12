@@ -22,5 +22,8 @@ Above you can see the VGA Sync file is setting the parameters of the display we 
 <img src="https://github.com/NaoiseOL/FPGAProject/blob/main/colourCycle.png">
 Above we can see a logic state machine which is used to determine the pattern used in our template code. In this code we filter through a range of different colours that is outputter to our screen.
 
+### **Simulation**
+
+
 
 
