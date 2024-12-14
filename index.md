@@ -63,6 +63,12 @@ The aim of the simulation process is to verify the function of the code you have
 
 Above is the Schematic of the project code at the synthesis stage. In the image we can see our colourStripes and VGASync and all the logic coming from each of these for the final output. In the lower right side of the schematic then shows all the logic that is needed to give our final output to our red, green and blue registers.
 
+![Analysis Schematic](https://github.com/user-attachments/assets/db9399a7-b3de-4a6d-8334-52da8c9a6285)
+
+Here is the analysis schematic, it helps us visualise the structure of the design in the project and showing how the code has been synthesized into FPGA resources to be used. It aids in the debug process and analysis in the implementation stage.
+
+The implementation phase is where the design is passed onto the FPGA device and this is where any potential issues are addressed before generating a bitstream to program the device.
+
 **VGASync & colourStripes**
 
 ![Synthesis Schematic ColourStripes and VGASync](https://github.com/user-attachments/assets/e7c9a78b-08a5-4b61-916a-13c453a8bb84)
