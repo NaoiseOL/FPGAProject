@@ -34,12 +34,27 @@ Above is the original colourStripes code we were given to work off. The function
 For my design I decided to create a day/night cycle over a green landscape of a small wood or forest. It is very achievable, however also quite complex therefore I used to assistance of AI powered chatbots to help in developing the code and then in turn editing it to my own preferences. Primarily using CoPilot or Chatgpt when needed.
 
 ### **Code Adaptation**
-Initially I started by setting out the dimensions for my image. Starting by determining the size of my green landscape vs my Sky to have the day/night cycle. I did this by setting all rows more than 350 as greenery and rows less than 350 as our sky.
+Initially I started by setting out the dimensions for my image. Starting by determining the size of my green landscape vs my Sky to have the day/night cycle. I did this by setting all rows more than 350 as greenery and rows less than 350 as our sky. Next step was to create the change in time for the day/night cycle. This was done using a counter where as the counter increases the 2 most significant bits are extracted from the counter for the phase, and  4 bits are extracted for the brightness. The phase bits decide the time of the cycle e.g day, night, sunrise etc. and the brightness bits varies from value of 1-15 and the colours decided by the phase are then divided by this number to give the slow transition effect and prevent harsh transitions from day to night.
+
+**Counter and Variables Setup**
+![ColourStripes Variables and Counter setup](https://github.com/user-attachments/assets/be7fc94e-2707-4a1f-b7ae-0d42b2f5fdea)
+
+**Trees Setup Code**
+![ColourStripes phase and treees setup](https://github.com/user-attachments/assets/ee221b46-69b8-4452-b5ec-fb0b4e437eaf)
+
+**Example of Logic used for Colours of sky/Greenery/Trees**
+![Sky colour Settings](https://github.com/user-attachments/assets/04263fbb-58e5-4071-98bb-44f5228f02d9)
+
+Once the day night cycle was completed, I added some trees to flesh out the greenery of the scene and add a bit more to the image. local parameters were set to indicate what column of the image each tree would be located as well as the trunk widths, heights and radius of their foliage. These are then set to appear when the row is less than the ground start thjat we set to ensure it starts where the ground ends. The foliage is set in a similar way at specific coords above each tree trunk. There is two sets of parameters within my project as I included larger and smaller trees to give a sense of depth to the forest scape.
+
+The colours are set in the same way as the sky, they are determined based on the phase and brightness as the clock counter goes through iterations. The same method is used for the greenery/ground in my image.
 
 ### **Simulation**
 ![SimulationImg](https://github.com/user-attachments/assets/b07772b3-f98e-4385-a65c-eccdd5174bd9)
 
 Above we can see our simulation of the template project which filter through the different colours, rows and columns based on the clock being used which allows us to see the patterns outputted onto the Screen when implemented onto the board.
+
+The aim of the simulation process is to verify the function of the code you have written in Verilog before sending it to the FPGA. It tests the logic of the code to ensure functionality.
 
 ### **Synthesis**
 ![Synthesis Schematic](https://github.com/user-attachments/assets/258439bd-3c08-40de-aa11-f1ae85fe8e17)
