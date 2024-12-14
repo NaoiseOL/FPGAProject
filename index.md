@@ -5,7 +5,7 @@ tags: fpga vga verilog
 categories: demo
 ---
 
-The aim of this project is to adapt a FPGA VGA Driver to display a graphic onto a 640x480 display. 
+The aim of this project is to adapt a FPGA VGA(Video Graphics Array) Driver to display a graphic onto a 640x480 display. 
 This will all be done through Verilog and demonstarted on the Basys3 development boards.
 
 ## **Template VGA Design**
@@ -14,6 +14,8 @@ We set up the project in Verilog based on code given to us by our lecturer. The 
 ![Project summary](https://github.com/user-attachments/assets/80053d92-22cc-4332-a24d-b2eb74509bc7)
 ### **Template Code**
 We were given some Template code to get us started on the project. This code included design sources for VGA Sync and a colour cycle source we can use to determine the patter that is outputted onto our screen from out basys3 board.
+
+The VGA uses analog signals to transmit video data from a source to a display device. These signals consist of three key components: RGB (Red, Green, Blue) which correspond to the brightness of the three primary colours, the Vsync(vertical sync) which is the indicator for the next frame in a video, and the HSync(Horizontal sync) This indicates a new line of pixels in a video.
 #### **VGA_Sync**
 ![VGASync](https://github.com/user-attachments/assets/1d7ea664-2032-4d15-9fd7-9608c0f6e39d)
 
