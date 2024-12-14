@@ -61,7 +61,30 @@ The aim of the simulation process is to verify the function of the code you have
 ### **Synthesis**
 ![Synthesis Schematic](https://github.com/user-attachments/assets/258439bd-3c08-40de-aa11-f1ae85fe8e17)
 
-Above is the Schematic of the project code at the synthesis stage.
+Above is the Schematic of the project code at the synthesis stage. In the image we can see our colourStripes and VGASync and all the logic coming from each of these for the final output. In the lower right side of the schematic then shows all the logic that is needed to give our final output to our red, green and blue registers.
+
+**VGASync & colourStripes**
+
+![Synthesis Schematic ColourStripes and VGASync](https://github.com/user-attachments/assets/e7c9a78b-08a5-4b61-916a-13c453a8bb84)
+
+The purpose of the synthesis process is to change the code written into a gate based netlist that can be mapped onto the FPGA. The output we gain from this process is used for placement and routing in later stages of FPGA Design
+
+### **Demonstration**
+Below is some examples of the outputs I got from my project
+
+![b064736b-e983-4d12-84ad-6826ac8798d3](https://github.com/user-attachments/assets/86aceca3-c0c7-4060-852d-81e6d96054b4)
+
+Here you can see the night stage of the cycle
+
+![2c4d70d2-cd74-47ed-bfe7-6bcfbbd27838](https://github.com/user-attachments/assets/361581a5-b821-4721-ae8b-8dd0dc8880ec)
+
+Here is the sunrise/sunset stage of the cycle.
+
+Throughout the cycle the image will transition through, day, night, sunrise and sunset. The brightness in each phase increases as it transitions to make a smoother transition on the eye.
+
+
+
+
 
 
 
