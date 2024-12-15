@@ -88,6 +88,9 @@ Here is the sunrise/sunset stage of the cycle.
 
 Throughout the cycle the image will transition through, day, night, sunrise and sunset. The brightness in each phase increases as it transitions to make a smoother transition on the eye.
 
+### **Conclusion**
+Overall, I was successfully able to create the image i had hoped for with this project. Using both the knowledge gained within labs through the semester with assistance from ai chatbots such as Chatgpt and CoPilot i was successfully able to create and adapt code within vivado to get the desired output. If given more time for the project my next aims would be to add more to the greenery section as well as add a sun and moon function for the changing day/night cycle stages.
+
 
 
 
